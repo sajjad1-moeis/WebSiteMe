@@ -1,0 +1,45 @@
+@font-face {
+   font-family: dana;
+   src: url(../Font/KalamehWeb_Regular.ttf);
+}
+@font-face {
+   font-family: danaThin;
+   src: url(../Font/KalamehWeb_thin.ttf);
+}
+@font-face {
+   font-family: danaLg;
+   src: url(../Font/KalamehWeb_Bold.ttf);
+}
+
+@font-face {
+   font-family: danaBold;
+   src: url(../Font/KalamehWeb_Black.ttf);
+}
+* {
+   scroll-behavior: smooth;
+   font-family: dana !important;
+}
+.danaThin {
+   font-family: danaThin !important;
+}
+.danaLg {
+   font-family: danaLg !important;
+}
+.danaBold {
+   font-family: danaBold !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+   width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: #1a1919;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #222222;
+}
